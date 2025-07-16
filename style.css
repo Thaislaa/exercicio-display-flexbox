@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #3b63b6;
+    padding: 24px;
+}
+
+nav.menu li {
+    list-style-type: none;
+}
+
+
+nav.menu li>a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav.menu>ul {
+    display: flex;
+    gap: 48px;
+}
+
+
+.menu a:hover {
+    background-color: #bfcce3;
+    padding: 2px;
+}
+
+.menu li>a:hover {
+    color: #3b63b6;
+    text-decoration: underline;
+}
+
+img {
+    width: 41%;
+    height: auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid rgb(239, 237, 237);
+    margin-top: 40px;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #3b63b6;
+    border: 1px solid #3b63b6;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+
+button:hover {
+    color: #bfcce3;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#texto1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#texto2 {
+    margin-bottom: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#home {
+    flex-direction: row-reverse;
+}
+
+section#quem-somos {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    gap: 40px;
+}
+
+section#quem-somos>div {
+    text-align: left;
+    width: 40%;
+}
+
+footer {
+    color: gray;
+    margin: 30px;
+    text-align: center;
+}
+
+section#planos {
+    margin-top: 40px;
+    margin-bottom: 250px;
+    flex-direction: column;
+}
+
+section#planos th {
+    padding: 17px;
+    background-color: rgb(255, 255, 255);
+}
+
+section#planos tbody th {
+    text-align: left;
+    padding-right: 20%;
+}
+
+section#planos table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid rgb(181, 184, 196);
+
+}
+
+section#planos>h2 {
+    margin-bottom: 25px;
+}
+
+table {
+    width: 75%;
+}
+
+section#planos tbody tr:hover th,
+section#planos tbody tr:hover td {
+    background-color: #cdd6e5 !important;
+}
+
+section#planos thead th {
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+/* linhas ímpares do tbody */
+#planos table tbody tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+/* primeira coluna do tbody - pintar só as células <th> (que são a primeira coluna) das linhas ímpares */
+#planos table tbody tr:nth-child(even) th {
+    background-color: rgb(245, 245, 245);
+}
+
+#planos table thead th {
+    background-color: #bfcce3;
+}
+
+td {
+    color: #6982b3;
+    text-align: center;
+}
+
+th {
+    color: #3b63b6;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+}
+
+.whatsapp img {
+    width: 50px;
+    height: auto;
+}
