@@ -153,13 +153,10 @@ section#planos thead th {
     padding-left: 25px;
 }
 
-
-/* linhas ímpares do tbody */
 #planos table tbody tr:nth-child(even) {
     background-color: rgb(245, 245, 245);
 }
 
-/* primeira coluna do tbody - pintar só as células <th> (que são a primeira coluna) das linhas ímpares */
 #planos table tbody tr:nth-child(even) th {
     background-color: rgb(245, 245, 245);
 }
